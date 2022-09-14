@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #37b9f1;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text{
+    width: 50%;
+}
+
+.text h1{
+    color: #f2f2f5;
+}
+
+.text span{
+    font-size: 3rem;
+    color: #000;
+    font-weight: bold;
+}
+
+.candidatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+}
+
+.cand_1,
+.cand_2,
+.cand_3,
+.cand_4{
+    flex: 0 0 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+img{
+    width: 9rem;
+    border-radius: 4px;
+}
+
+button{
+    width: 7rem;
+    height: 5vh;
+    margin: 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #8739f9;
+    color: #f5f5f7;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0 0 10px #8e0c9e;
+}
+
+button:hover{
+    background-color: #f5f5f7;
+    color: #8739f9;
+}
+
+@media (max-width: 280px){
+    .text h1{
+        font-size: 0.9em;
+    }
+
+    .text span{
+        font-size: 1.1em;
+    }
+}
