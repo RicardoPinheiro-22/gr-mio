@@ -133,6 +133,12 @@ button:hover{
     }
 }
 
+@media (max-width: 520px){
+    .alerta h3{
+        font-size: 0.7em;
+    }
+}
+
 @media (max-width: 280px){
     .text h1{
         font-size: 0.9em;
