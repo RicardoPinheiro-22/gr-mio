@@ -127,6 +127,12 @@ button:hover{
     color: #8739f9;
 }
 
+@media (max-width: 920px){
+    .alerta h3{
+        font-size: 1em;
+    }
+}
+
 @media (max-width: 280px){
     .text h1{
         font-size: 0.9em;
