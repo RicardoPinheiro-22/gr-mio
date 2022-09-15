@@ -83,6 +83,45 @@ button{
     box-shadow: 0 0 10px #8e0c9e;
 }
 
+.alerta{
+    display: none;
+    text-align: center;
+}
+
+.alerta h3{
+    font-size: 3em;
+    text-align: center;
+}
+
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.load{
+    width: 50px;
+    height: 50px;
+
+    display: grid;
+    place-items: center;
+
+    border-radius: 50%;
+    border: 3px solid black;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+
+    animation: load 1s infinite;
+    display: none;
+}
+
+@keyframes load{
+    0%{transform:  rotate(0deg);}
+    50%{transform: rotate(180deg) scale(1.2);}
+    100%{transform: rotate(360deg);}
+}
+
 button:hover{
     background-color: #f5f5f7;
     color: #8739f9;
