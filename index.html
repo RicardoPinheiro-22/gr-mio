@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="media.css">
-    <title>Document</title>
+    <title>Votação</title>
 </head>
 <body>
     <header>
@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="votar_candidato">
-                    <button>VOTAR</button>
+                    <button onclick="voto()">VOTAR</button>
                 </div>
             </div>
 
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="votar_candidato">
-                    <button>VOTAR</button>
+                    <button onclick="voto()">VOTAR</button>
                 </div>
             </div>
 
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="votar_candidato">
-                    <button>VOTAR</button>
+                    <button onclick="voto()">VOTAR</button>
                 </div>
             </div>
 
@@ -86,15 +86,20 @@
                 </div>
 
                 <div class="votar_candidato">
-                    <button>VOTAR</button>
+                    <button onclick="voto()">VOTAR</button>
                 </div>
             </div>
         </section>
     </main>
 
+    <section class="carregar">
+        <h1>Seu voto foi computado e você será realogado para a página inicial</h1>
+        <div class="load"></div>
+    </section>
 
 
 
-    <script src="./comunicação.js"></script>
+
+    <script src="media.js"></script>
 </body>
 </html>
